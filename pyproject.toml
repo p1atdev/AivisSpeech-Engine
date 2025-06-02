@@ -69,6 +69,9 @@ default-groups = ["dev", "build"]
 [tool.uv.sources]
 style-bert-vits2 = { git = "https://github.com/tsukumijima/Style-Bert-VITS2", rev = "4657f60ece2c8ceb274f2970c9e857693e79e495" }
 
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
