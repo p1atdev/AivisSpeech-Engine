@@ -71,10 +71,6 @@ style-bert-vits2 = { git = "https://github.com/tsukumijima/Style-Bert-VITS2", re
 
 [tool.hatch.build.targets.wheel]
 packages = ["voicevox_engine"]
-include = ["resources/**", "engine_manifest.json"]
-
-[tool.hatch.build.targets.wheel.sources]
-"aivis_speech_engine" = "."
 
 [build-system]
 requires = ["hatchling"]
