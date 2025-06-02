@@ -70,7 +70,7 @@ default-groups = ["dev", "build"]
 style-bert-vits2 = { git = "https://github.com/tsukumijima/Style-Bert-VITS2", rev = "4657f60ece2c8ceb274f2970c9e857693e79e495" }
 
 [tool.hatch.build.targets.wheel]
-packages = ["src"]
+packages = ["voicevox_engine"]
 
 [build-system]
 requires = ["hatchling"]
